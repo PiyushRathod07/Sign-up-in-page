@@ -33,22 +33,23 @@
                 flex-direction: column;
                 align-items: center;
                 margin: 30px 0;
+                width: 25%;
             }
             .login  header{
                 
-               padding-bottom: 17px;
+              
                 color: black;
+                
             }
             .formwrap{
                 margin-top: 20px;
-               
-               
+                              
             }
             
             .formwrap .name1{
                 border: 1px solid black;
                 border-radius: 10px;
-                width: 48.7%;
+                width: 48%;
                 margin-bottom: 15px;
                 display: flex;
                 height: 44px;
@@ -70,11 +71,8 @@
                 justify-content: space-between;
                 opacity: 0.6;
                 background-color: transparent;
-               
-             
-
             }
-           
+        
             .field
             {
                 border: 1px solid black;
@@ -179,13 +177,18 @@
                 color: black;
                 margin-top: 20px;
              }
-           
+           hr .new{
+            color: black;
+           }
+           ul{
+            color: blue;
+           }
              
         </style>
     </head>
     <body>
         <form action="" class="login">
-           <header>Sign Up Your Account</header>
+           <header><b>Sign Up Your Account</b></header>
     <div class="formwrap">
         <div class="inputgap">
             <div class="name1"><input type="text"  style="width: 100%;"
@@ -213,15 +216,17 @@
               </label>
             <span class="or">OR</span>
             <div class="social-icons">
-                <a href="#" class="google"  ><i class="fa fa-google fa-10x"></i> Continue with Google
+                <a href="#" class="google"  ><i class="fa fa-google" style="color: rgb(192, 28, 28);"></i> Continue with Google
                     </a>
                 <a href="#" class="facebook">
                     <i class="fa fa-facebook" style="color: #0960f6;"></i> Continue with Facebook
                    </a>
                   <br>
-                 
-            </div><br>
-          <a href="form.html" class="sign-in">Already have an account ?</a></span>
+            </div>
+            <hr>
+            <ul>
+        <li>
+          <a href="form.html" class="sign-in">Already have an account ?</a></span></li></ul>
         </form>
     </body>
 </html>
